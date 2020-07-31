@@ -1,0 +1,46 @@
+{
+  "name": "vue-cli-plugin-github-amplify",
+  "version": "0.1.0",
+  "description": "Vue CLI plugin that adds support for deployment via GitHub Actions to AWS Amplify",
+  "files": [
+    "index.js",
+    "generator",
+    "prompts.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katallaxie/vue-cli-plugin-github-amplify.git"
+  },
+  "keywords": [
+    "Vue",
+    "Vue CLI",
+    "plugin",
+    "github",
+    "AWS",
+    "Amplify"
+  ],
+  "author": {
+    "url": "https://katallaxie.me",
+    "name": "Sebastian Doell"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/katallaxie/vue-cli-plugin-github-amplify/issues"
+  },
+  "homepage": "https://github.com/katallaxie/vue-cli-plugin-github-amplify#readme",
+  "scripts": {
+    "lint": "eslint .",
+    "format": "eslint --fix .",
+    "prepublishOnly": "npm run lint"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-config-react-app": "^5.2.1",
+    "eslint-plugin-github": "^3.4.1",
+    "eslint-plugin-jest": "^23.8.2",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-config-ktsn": "^2.0.1"
+  }
+}
