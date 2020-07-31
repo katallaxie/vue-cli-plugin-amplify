@@ -1,7 +1,5 @@
 # vue-cli-plugin-github-amplify
 
-[![vue-cli-plugin-github-amplify Dev Token](https://badge.devtoken.rocks/vue-cli-plugin-github-amplify)](https://devtoken.rocks/package/vue-cli-plugin-github-amplify)
-
 Vue CLI plugin that adds support for deployment via GitHub Actions to AWS Amplify
 
 ## Overview
